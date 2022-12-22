@@ -1,0 +1,81 @@
+node-universalify (2.0.0-3) unstable; urgency=medium
+
+  * Fix d/watch.
+  * Bump standards-version to 4.6.0.
+
+ -- Julien Puydt <jpuydt@debian.org>  Sun, 29 Aug 2021 21:08:41 +0200
+
+node-universalify (2.0.0-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Edward Betts ]
+  * Correct github URLs in debian/upstream/metadata
+
+  [ Xavier Guimard ]
+  * Use dh-sequence-nodejs auto install
+  * Enable upstream test
+
+ -- Xavier Guimard <yadd@debian.org>  Tue, 10 Nov 2020 15:22:19 +0100
+
+node-universalify (2.0.0-1) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Remove obsolete field Name from debian/upstream/metadata (already
+    present in machine-readable debian/copyright).
+
+  [ Julien Puydt ]
+  * New upstream release.
+  * Bump dh compat to level 13.
+  * Update team mailing list address.
+  * Declare d/rules doesn't require root.
+
+ -- Julien Puydt <jpuydt@debian.org>  Sun, 02 Aug 2020 08:49:34 +0200
+
+node-universalify (1.0.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Julien Puydt <jpuydt@debian.org>  Mon, 09 Mar 2020 09:03:15 +0100
+
+node-universalify (0.2.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Refresh packaging:
+    - Update dates in d/copyright.
+    - Switch to dh-compat level 12.
+    - Bump std-vers to 4.5.0.
+    - Mark the package Multi-Arch: foreign following hinter.
+    - Install in /usr/share and not /usr/lib.
+    - Simplify the autopkgtest control file.
+
+ -- Julien Puydt <jpuydt@debian.org>  Fri, 21 Feb 2020 07:22:21 +0100
+
+node-universalify (0.1.2-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Refresh packaging:
+    - Bump dh compat to 11.
+    - Bump std-ver to 4.1.4.
+    - Bump d/watch to version 4.
+    - Point Vcs-* fields to salsa.
+    - Change priority from extra to optional.
+    - Update dates in d/copyright.
+    - Use my debian.org mail address.
+    - Move from section web to section javascript.
+
+ -- Julien Puydt <jpuydt@debian.org>  Sat, 23 Jun 2018 07:35:52 +0200
+
+node-universalify (0.1.1-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Sun, 23 Jul 2017 10:39:51 +0200
+
+node-universalify (0.1.0-1) unstable; urgency=medium
+
+  * Initial packaging. (Closes: #866191)
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Wed, 28 Jun 2017 08:10:30 +0200
